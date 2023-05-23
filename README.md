@@ -19,9 +19,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖  Portfolio project
+# 📖  Yoka-Look 
   <a name="about-project"></a>
-The following project consist of demostrating the usage of github best practices, Linsts configs and how to write source code documentation in professional manner.
+A blog website for a fashion company based in paries, 
+in this project we build a blog website for a fashion company and describe everything about the company from main Workers to previous exhibition festivals.
 
 
 
@@ -55,13 +56,15 @@ To run the project click on the HTML document on your local machine or use the l
 
 - solid Linting  
 - responsive design 
+- Clear message 
+- best illustration  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-The live demo link is currently unavailable due to technical stuff and maintenance, please be patient as we are working on something presentable 
+The live demo link is currently unavailable due to technical stuff and maintenance, please be patient as we are working on something presentable  
 
 
 

@@ -1,0 +1,197 @@
+.about-hero {
+  min-height: 300px;
+  background-color: #e5e5e880;
+  padding: 10px 20px;
+  background-size: cover;
+}
+
+.main-header nav ul .active-link {
+  color: var(--primary-color);
+}
+
+.about-hero h2 {
+  padding-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.about-hero h1 {
+  text-align: center;
+  font-weight: 900;
+  color: var(--primary-color);
+  line-height: 3rem;
+}
+
+.about-description {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-inline: 30px;
+  background-color: white;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.about-contact {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-inline: 30px;
+  background-color: #e5e5e880;
+  color: var(--primary-dark-color);
+  text-align: center;
+  line-height: 2rem;
+}
+
+.about-contact h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.sumit-program {
+  background-color: white;
+}
+
+.sumit-program .sumit-title {
+  text-align: center;
+  font-size: 25px;
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-inline: auto;
+  line-height: 2.3rem;
+  color: var(--primary-dark-color);
+  position: relative;
+}
+
+.sumit-program .sumit-title::after {
+  width: 40px;
+  height: 2px;
+  background: var(--primary-color);
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  right: 150px;
+}
+
+.summit-desc {
+  text-align: center;
+  padding: 10px 40px;
+  line-height: 2.1rem;
+  color: var(--primary-dark-color);
+}
+
+.summit-logo {
+  height: 250px;
+  background: white;
+  width: 100%;
+  border-top: 2px solid rgba(0, 0, 0, 0.119);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.079);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.summit-logo img {
+  width: 100px;
+}
+
+.past-summit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 40px;
+  border-top: 2px solid rgba(0, 0, 0, 0.119);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.079);
+}
+
+.past-summit h1 {
+  color: var(--primary-dark-color);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.past-summit h1::after {
+  width: 70px;
+  height: 3px;
+  background: var(--primary-color);
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  right: 150px;
+}
+
+.past-summit p {
+  padding-inline: 40px;
+  line-height: 2.1rem;
+}
+
+.past-summit-container {
+  margin-top: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.past-summit-card {
+  max-width: 500px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.past-summit-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.past-summit-card h2 {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 30px;
+}
+
+.past-summit-card .cover {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #c7331fa8;
+  align-items: center;
+  flex-direction: column;
+}
+
+.past-summit-card .cover p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mobile-footer {
+  height: 100px;
+  padding: 10px 40px;
+}
+
+.mobile-footer img {
+  width: 150px;
+}
+
+.mobile-footer-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
