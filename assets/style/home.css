@@ -1,3 +1,11 @@
 .main-header nav ul .active-link {
   color: var(--primary-color);
 }
+
+
+.expert-title{
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 30px;
+    color: var(--primary-dark-color);
+}
