@@ -128,7 +128,7 @@
 
   .lg-event-link-container a {
     color: white;
-    margin: 50px 0px;
+    margin: 50px 0;
   }
 
   .mobile-team {
@@ -137,7 +137,7 @@
 
   .lg-screen-team {
     display: block;
-    margin-bottom: 150px
+    margin-bottom: 150px;
   }
 
   .lg-screen-team ul {
