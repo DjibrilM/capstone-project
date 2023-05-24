@@ -35,6 +35,13 @@ const teamMembers = [
     bio: 'Main supervisor of our activities',
     image: 'assets/images/teamm5.png',
   },
+  {
+
+    name: 'valentine clark',
+    role: 'chief of marketing',
+    bio: 'valentine is an amazing master of marketing with experience from the biggest industry in the sector of fashion',
+    image: 'assets/images/teamm6.png',
+  },
 ];
 
 const teamElement = (name, role, bio, image) => {

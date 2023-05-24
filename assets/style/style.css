@@ -45,7 +45,7 @@ body {
   justify-content: space-between;
 }
 
-.partner h1 {
+.partner h2 {
   color: white;
   position: relative;
   margin-bottom: 40px;
@@ -151,14 +151,14 @@ body {
   position: relative;
 }
 
-.events .title h1 {
+.events .title h2 {
   color: white;
   font-size: 20px;
   position: relative;
   text-align: center;
 }
 
-.events .title h1::after {
+.events .title h2::after {
   content: " ";
   position: absolute;
   width: 20%;
@@ -189,7 +189,7 @@ body {
   margin-right: 20px;
 }
 
-.event-card .trailing h1 {
+.event-card .trailing h2 {
   color: var(--primary-color);
   font-size: 18px;
   margin-left: 10px;
@@ -262,8 +262,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  min-height: 500px;
-  height: 100%;
+  height: 500px;
   transition: 300ms ease-in;
 }
 
@@ -276,13 +275,13 @@ body {
   gap: 10px;
 }
 
-.team-el .title > :nth-child(1) {
+.team-el .title> :nth-child(1) {
   font-size: 20px;
   margin-top: 20px;
   color: var(--primary-dark-color);
 }
 
-.team-el .title > :nth-child(2) {
+.team-el .title> :nth-child(2) {
   margin-top: 10px;
   font-size: 16px;
   line-height: 1.6rem;
@@ -291,7 +290,7 @@ body {
   position: relative;
 }
 
-.team-el .title > :nth-child(2)::after {
+.team-el .title> :nth-child(2)::after {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -301,7 +300,7 @@ body {
   background-color: #41424646;
 }
 
-.team-el .title > :nth-child(3) {
+.team-el .title> :nth-child(3) {
   line-height: 1.7rem;
   color: var(--secondary-dark-color);
 }
