@@ -17,6 +17,7 @@
 }
 
 .about-hero h1 {
+  font-size: 35px;
   text-align: center;
   font-weight: 900;
   color: var(--primary-color);

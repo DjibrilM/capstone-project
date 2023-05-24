@@ -51,10 +51,15 @@
     font-size: 60px;
   }
 
+  .hero h2 {
+    font-size: 30px;
+  }
+
   .hero .hero-desc {
     max-width: 500px;
     padding: 20px;
     line-height: 2rem;
+    text-align: left;
   }
 
   .events {
@@ -75,11 +80,11 @@
   }
 
   .event-card {
+    min-height: 280px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: initial;
     text-align: center;
   }
 
@@ -94,10 +99,12 @@
     margin-right: 0;
   }
 
-  .event-card .trailing h1 {
+  .event-card .trailing h2 {
     color: var(--primary-color);
     font-size: 18px;
     margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .event-card .trailing img {
@@ -121,6 +128,7 @@
 
   .lg-event-link-container a {
     color: white;
+    margin: 50px 0px;
   }
 
   .mobile-team {
@@ -129,6 +137,7 @@
 
   .lg-screen-team {
     display: block;
+    margin-bottom: 150px
   }
 
   .lg-screen-team ul {
