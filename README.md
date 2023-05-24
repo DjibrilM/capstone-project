@@ -64,7 +64,7 @@ To run the project click on the HTML document on your local machine or use the l
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-The live demo link is currently unavailable due to technical stuff and maintenance, please be patient as we are working on something presentable  
+live demo <a href="https://djibrilm.github.io/capstone-project/">link</a> 
 
 
 
