@@ -275,13 +275,13 @@ body {
   gap: 10px;
 }
 
-.team-el .title> :nth-child(1) {
+.team-el .title > :nth-child(1) {
   font-size: 20px;
   margin-top: 20px;
   color: var(--primary-dark-color);
 }
 
-.team-el .title> :nth-child(2) {
+.team-el .title > :nth-child(2) {
   margin-top: 10px;
   font-size: 16px;
   line-height: 1.6rem;
@@ -290,7 +290,7 @@ body {
   position: relative;
 }
 
-.team-el .title> :nth-child(2)::after {
+.team-el .title > :nth-child(2)::after {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -300,7 +300,7 @@ body {
   background-color: #41424646;
 }
 
-.team-el .title> :nth-child(3) {
+.team-el .title > :nth-child(3) {
   line-height: 1.7rem;
   color: var(--secondary-dark-color);
 }
