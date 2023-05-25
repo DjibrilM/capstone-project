@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  --primary-color: #ff4f38;
+  --primary-dark-color: rgb(66, 66, 66);
+  --secondary-dark-color: #414246;
+  --light-gray: #f8f8f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.main-header {
+  height: 60px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 10px 10px 20px rgba(196, 195, 195, 0.612);
+}
+
+.partner-container img {
+  width: 120px;
+}
+
+.main-header nav {
+  display: flex;
+  align-items: center;
+}
+
+.team-el .trailing img {
+  width: 150px;
+}
+
+.main-header nav .menu-logo {
+  align-items: center;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.partner h2 {
+  color: white;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.event-card .trailing img {
+  width: 70px;
+}
+
+.main-header nav .menu-logo .logo img {
+  width: 50px;
+}
+
+.main-header nav .menu-con {
+  font-size: 35px;
+  color: rgb(66, 66, 66);
+  cursor: pointer;
+}
+
+.hero {
+  min-height: 500px;
+  background-image: url("smbg.png");
+  padding-left: 20px;
+  padding-right: 35px;
+  padding-top: 150px;
+}
+
+.hero .hero-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero .hero-heading h2 {
+  color: var(--primary-color);
+}
+
+.hero .hero-heading h1 {
+  font-size: 40px;
+  font-weight: 900;
+  background: url('https://static.vecteezy.com/system/resources/previews/005/656/126/non_2x/ethnic-abstract-fabric-seamless-pattern-in-tribal-african-wax-print-kitenge-floral-motifs-aztec-geometric-art-ornament-design-for-carpet-wallpaper-clothing-wrapping-fabric-cover-dress-vector.jpg');
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero .hero-desc {
+  text-align: center;
+  background: var(--light-gray);
+  line-height: 1.6rem;
+  border: 5px solid white;
+  color: var(--secondary-dark-color);
+  padding: 20px;
+}
+
+.partner {
+  width: 100%;
+  background: #414246;
+  padding-bottom: 40px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner h2::after {
+  position: absolute;
+  bottom: -20px;
+  left: 10px;
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background: var(--primary-color);
+}
+
+.partner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.mobile-team button p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.events {
+  /* width: 100%; */
+  min-height: 600px;
+  background: url('../images/programs-bg.png');
+  background-size: cover;
+  padding-inline: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.events .title {
+  margin: 0 0  100px 0;
+  position: relative;
+}
+
+.events .title h2 {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+}
+
+.events .title h2::after {
+  content: " ";
+  position: absolute;
+  max-width: 100px;
+  width: 100%;
+  height: 3px;
+  background-color: var(--primary-color);
+  bottom: -15px;
+  left: 100px;
+}
+
+.event-card-container {
+  width: 100%;
+}
+
+.event-card {
+  margin-bottom: 20px;
+  width: 100%;
+  background: #41424679;
+  padding: 10px 0;
+  display: flex;
+}
+
+.event-card .trailing {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.event-card .trailing h2 {
+  color: var(--primary-color);
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.event-card .leading {
+  line-height: 1.8rem;
+  color: white;
+}
+
+.mobile-team button {
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  border: 2px solid rgba(128, 128, 128, 0.292);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 10px;
+  margin-top: 40px;
+  cursor: pointer;
+  box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.125);
+}
+
+.event-card .leading p {
+  width: 90%;
+  text-align: left;
+}
+
+.event-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.event-btn-container button {
+  height: 80px;
+  background: var(--primary-color);
+  border: none;
+  color: white;
+  font-size: 17px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  width: 90%;
+}
+
+.event-btn-container button:active {
+  background-color: #c7331f;
+}
+
+.mobile-team {
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.team-mobile-list-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: grid-template-rows 1000ms;
+}
+
+.team-mobile-list-wrapper-open {
+  grid-template-rows: 1fr;
+}
+
+.mobile-team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 500px;
+  transition: 300ms ease-in;
+}
+
+.open-mobile-team-list {
+  height: auto;
+}
+
+.team-el {
+  display: flex;
+  gap: 10px;
+}
+
+.team-el .title > :nth-child(2) {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.6rem;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  position: relative;
+}
+
+.team-el .title > :nth-child(2)::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  width: 20%;
+  height: 3px;
+  background-color: #41424646;
+}
+
+.team-el .title > :nth-child(3) {
+  line-height: 1.7rem;
+  color: var(--secondary-dark-color);
+}
+
+.close-btn-container i {
+  cursor: pointer;
+}
+
+.mobile-team button i {
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.464);
+  width: 100%;
+  height: 0;
+  background-color: white;
+  transition: 400ms ease-in;
+  overflow: hidden;
+}
+
+.open-mobile-menu {
+  height: 500px;
+}
+
+.close-btn-container {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.mobile-menu ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.mobile-menu ul a {
+  text-decoration: none;
+  color: #414246;
+}
+
+.mobile-menu ul a:hover {
+  color: #c7331f;
+}
