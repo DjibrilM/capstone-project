@@ -1,5 +1,3 @@
-
-
 const openMenuBtn = document.querySelector('.bx-menu');
 const mobileMenu = document.querySelector('.mobile-menu');
 const closeMenuBtn = document.querySelector('.bx-x');
