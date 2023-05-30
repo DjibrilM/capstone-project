@@ -13,7 +13,7 @@
   position: relative;
 }
 
-.expert-title::after{
+.expert-title::after {
   content: " ";
   width: 80px;
   height: 2px;
