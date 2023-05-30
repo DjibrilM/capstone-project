@@ -156,7 +156,8 @@
   object-fit: cover;
 }
 
-.past-summit-card h2 {
+.past-summit-card h3 {
+  margin-bottom: 20px;
   position: relative;
   z-index: 1;
   color: white;
@@ -195,4 +196,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.mobile-footer-container img
+{
+  width: 55px;
 }
