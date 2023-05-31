@@ -4,7 +4,20 @@
 
 .expert-title {
   text-align: center;
-  margin: 50px 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
   font-size: 30px;
   color: var(--primary-dark-color);
+  position: relative;
+}
+
+.expert-title::after {
+  content: " ";
+  width: 80px;
+  height: 2px;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 50px;
 }

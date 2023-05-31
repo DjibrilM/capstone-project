@@ -146,7 +146,7 @@ body {
 }
 
 .events .title {
-  margin: 0 0  100px 0;
+  margin: 0 0 100px 0;
   position: relative;
 }
 
@@ -180,6 +180,14 @@ body {
   background: #41424679;
   padding: 10px 0;
   display: flex;
+  border: 1px solid transparent;
+  transition: 300ms ease;
+  cursor: pointer;
+  padding-top: 20px;
+}
+
+.event-card:hover {
+  border-color: white;
 }
 
 .event-card .trailing {
@@ -291,8 +299,8 @@ body {
   content: "";
   position: absolute;
   bottom: -10px;
-  left: 10px;
-  width: 20%;
+  left: 2px;
+  width: 13%;
   height: 3px;
   background-color: #41424646;
 }
